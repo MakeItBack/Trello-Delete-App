@@ -1,0 +1,41 @@
+*       {   border: 0; 
+            padding: 0;
+            box-sizing: border-box;}
+
+body    {   padding: 2% 25%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+            h1          {   text-align: center;}
+            h3          {   display: inline-block;
+                            color: rgb(185, 51, 51);
+                        }
+
+            #delete     {   float: right;
+                            position: sticky;
+                            top: 10%;
+                            padding: 0.5rem;
+                            border-radius: 5px;
+                            border: 2px rgb(185, 51, 51) solid;
+                            background: white;
+                            box-shadow: 0 0 20px 30px rgba(255, 255, 255, 0.9);
+                            margin-left: 3rem;
+                            font-size: 1.2rem;
+                            float: right;
+                            }
+
+            #delete:hover{  background-color: rgb(185, 51, 51);
+                            color: ivory;}    
+
+            #boardList { 
+                        li {        line-height: 2rem;
+                                    font-weight: 600;
+                                    list-style: none;
+                            }
+                        li input {  margin-right: 1rem;
+                            }
+                        li span {   float: right;
+                                    font-weight: initial;
+                            }
+                        }
+
+        }

@@ -1,0 +1,56 @@
+* {
+  border: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 2% 25%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body h3 {
+  display: inline-block;
+  color: #b93333;
+}
+
+body #delete {
+  float: right;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 2px #b93333 solid;
+  background: white;
+  -webkit-box-shadow: 0 0 20px 30px rgba(255, 255, 255, 0.9);
+          box-shadow: 0 0 20px 30px rgba(255, 255, 255, 0.9);
+  margin-left: 3rem;
+  font-size: 1.2rem;
+  float: right;
+}
+
+body #delete:hover {
+  background-color: #b93333;
+  color: ivory;
+}
+
+body #boardList li {
+  line-height: 2rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+body #boardList li input {
+  margin-right: 1rem;
+}
+
+body #boardList li span {
+  float: right;
+  font-weight: initial;
+}
