@@ -85,15 +85,56 @@ main .selected {
 }
 
 #confirm {
-  background-color: white;
-  border: #b93333 solid 4px;
+  background-color: #026aa7;
+  color: white;
+  -webkit-box-shadow: 0 0 100px 100px white;
+          box-shadow: 0 0 100px 100px white;
+  border: #639ce6 solid 4px;
   border-radius: 10px;
-  position: absolute;
-  top: 10;
-  left: 10;
-  width: 20rem;
-  height: 5rem;
+  position: fixed;
+  top: 20%;
+  right: 30%;
+  left: 30%;
+  padding: 4rem;
+  text-align: center;
+  height: auto;
   z-index: 10;
+}
+
+#confirm h2 {
+  font-weight: 600;
+  height: 5rem;
+  padding: auto;
+}
+
+#confirm #btnGroup {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+}
+
+#confirm #btnGroup button {
+  padding: 15px;
+  border: 5px solid white;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+#confirm #btnGroup #yes {
+  background: #479b47;
+}
+
+#confirm #btnGroup #no {
+  background: #b93333;
 }
 
 .hide {

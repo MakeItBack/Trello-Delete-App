@@ -1,8 +1,8 @@
 let num = 0;
 const delBtn = document.querySelector("#delete");
-// delBtn.addEventListener("click", confirmBox);
+delBtn.addEventListener("click", popup);
 const confirmMsg = document.querySelector("#confirmText");
-const ConfirmBox = document.querySelector("#confirm");
+const confirmBox = document.querySelector("#confirm");
 
 async function getBoards() {
    const res = await axios.get(
@@ -11,9 +11,7 @@ async function getBoards() {
    const list = document.querySelector("#boardList");
    for (const board of res.data) {
       // console.log(board);
-      list.innerHTML +=
-         // ${board.starred ? `<input type="checkbox" disabled>` : `<input type="checkbox">`}
-         `<li 
+      list.innerHTML += `<li 
             class=${board.starred ? "star" : "noStar"}
             id=${board.id}
           >
@@ -47,10 +45,10 @@ function countSelected() {
 }
 
 // Display the confirmation box
-// function confirmBox() {
-//    confirmMsg.textContent = `Are you sure you want to delete these ${num} Trello boards?`;
-//    confirmBox.classList.remove("hide");
-// }
+function popup() {
+   confirmMsg.textContent = `Are you sure you want to delete these ${num} Trello boards?`;
+   confirmBox.classList.remove("hide");
+}
 
 // TO DO
 // when the delete button is clicked create an array with the IDs of the selected boards

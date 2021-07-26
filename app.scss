@@ -70,16 +70,45 @@ main {
 }
 
 #confirm {
-   background-color: white;
-   //    box-shadow: 0 0 500px 500px white;
-   border: rgb(185, 51, 51) solid 4px;
+   background-color: #026aa7;
+   color: white;
+   box-shadow: 0 0 100px 100px white;
+   border: rgb(99, 156, 230) solid 4px;
    border-radius: 10px;
-   position: absolute;
-   top: 10;
-   left: 10;
-   width: 20rem;
-   height: 5rem;
+   position: fixed;
+   top: 20%;
+   right: 30%;
+   left: 30%;
+   padding: 4rem;
+   text-align: center;
+   height: auto;
    z-index: 10;
+   h2 {
+      font-weight: 600;
+      height: 5rem;
+      padding: auto;
+   }
+   #btnGroup {
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 1.5rem;
+      button {
+         padding: 15px;
+         border: 5px solid white;
+         border-radius: 10px;
+         color: white;
+         font-weight: 600;
+      }
+      #yes {
+         background: rgb(71, 155, 71);
+      }
+      #no {
+         background: rgb(185, 51, 51);
+      }
+   }
 }
 .hide {
    display: none;
