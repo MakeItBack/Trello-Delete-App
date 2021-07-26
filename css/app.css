@@ -1,56 +1,107 @@
 * {
   border: 0;
   padding: 0;
+  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
-  padding: 2% 25%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5% 25%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #026aa7;
 }
 
-body h1 {
+main {
+  background-color: white;
+  border: 20px solid white;
+  border-radius: 10px;
+}
+
+main h1 {
   text-align: center;
+  font-weight: 500;
 }
 
-body h3 {
-  display: inline-block;
-  color: #b93333;
+main h1 span {
+  font-weight: 300;
 }
 
-body #delete {
-  float: right;
+main #header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
   position: -webkit-sticky;
   position: sticky;
   top: 10%;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+main h3 {
+  color: #b93333;
+}
+
+main #delete {
   padding: 0.5rem;
   border-radius: 5px;
   border: 2px #b93333 solid;
-  background: white;
-  -webkit-box-shadow: 0 0 20px 30px rgba(255, 255, 255, 0.9);
-          box-shadow: 0 0 20px 30px rgba(255, 255, 255, 0.9);
-  margin-left: 3rem;
   font-size: 1.2rem;
-  float: right;
+  background-color: white;
 }
 
-body #delete:hover {
+main #delete:hover {
   background-color: #b93333;
-  color: ivory;
+  color: white;
 }
 
-body #boardList li {
+main #boardList li {
   line-height: 2rem;
   font-weight: 600;
   list-style: none;
 }
 
-body #boardList li input {
+main #boardList li input {
   margin-right: 1rem;
 }
 
-body #boardList li span {
+main #boardList li span {
   float: right;
   font-weight: initial;
+}
+
+main .selected {
+  color: white;
+  background-color: #b93333;
+  border-radius: 8px;
+  border-left: 10px solid #b93333;
+  border-right: 10px solid #b93333;
+}
+
+#confirm {
+  background-color: white;
+  border: #b93333 solid 4px;
+  border-radius: 10px;
+  position: absolute;
+  top: 10;
+  left: 10;
+  width: 20rem;
+  height: 5rem;
+  z-index: 10;
+}
+
+.hide {
+  display: none;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: right;
+  color: white;
 }
