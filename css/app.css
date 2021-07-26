@@ -100,6 +100,14 @@ main .selected {
   display: none;
 }
 
+#logo {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 10%;
+  height: auto;
+}
+
 footer {
   margin-top: 2rem;
   text-align: right;
