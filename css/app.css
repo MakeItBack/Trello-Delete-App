@@ -61,6 +61,10 @@ main #delete:hover {
   color: white;
 }
 
+main #boardList {
+  border-top: #e4d9d9 dashed 1px;
+}
+
 main #boardList li {
   line-height: 2rem;
   font-weight: 600;
@@ -129,6 +133,11 @@ main .selected {
   font-weight: 600;
 }
 
+#confirm #btnGroup button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 #confirm #btnGroup #yes {
   background: #479b47;
 }
@@ -151,6 +160,30 @@ main .selected {
 
 footer {
   margin-top: 2rem;
-  text-align: right;
+}
+
+footer a {
+  text-decoration: none;
   color: white;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+footer span {
+  font-weight: 700;
 }

@@ -46,6 +46,7 @@ main {
    }
 
    #boardList {
+      border-top: rgb(228, 217, 217) dashed 1px;
       li {
          line-height: 2rem;
          font-weight: 600;
@@ -102,6 +103,9 @@ main {
          color: white;
          font-weight: 600;
       }
+      button:hover {
+         transform: scale(1.1);
+      }
       #yes {
          background: rgb(71, 155, 71);
       }
@@ -124,6 +128,21 @@ main {
 
 footer {
    margin-top: 2rem;
-   text-align: right;
-   color: white;
+
+   a {
+      text-decoration: none;
+      color: white;
+   }
+   div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+   }
+   img {
+      width: 30px;
+      margin: 0 10px;
+   }
+   span {
+      font-weight: 700;
+   }
 }

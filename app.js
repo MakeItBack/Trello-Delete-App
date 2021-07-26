@@ -3,6 +3,10 @@ const delBtn = document.querySelector("#delete");
 delBtn.addEventListener("click", popup);
 const confirmMsg = document.querySelector("#confirmText");
 const confirmBox = document.querySelector("#confirm");
+const cancel = document.querySelector("#no");
+cancel.addEventListener("click", function () {
+   confirmBox.classList.add("hide");
+});
 
 async function getBoards() {
    const res = await axios.get(
@@ -49,6 +53,9 @@ function popup() {
    confirmMsg.textContent = `Are you sure you want to delete these ${num} Trello boards?`;
    confirmBox.classList.remove("hide");
 }
+cancel.addEventListener("click", function () {
+   confirmBox.classList.add("hide");
+});
 
 // TO DO
 // when the delete button is clicked create an array with the IDs of the selected boards
