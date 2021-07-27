@@ -2,16 +2,18 @@
 
 **A web app that allows you to quickly and easily delete multiple Trello boards in one step.**<br>
 
-To get this working for yourself:
+#### Instructions
+-  Clone this repo to your local machine.
+-  Log into Trello (web) and find out [your own private API key and token](https://trello.com/app-key)
+-  Create a new empty **keys.js file** in your new local project directory.
+-  Save your key and token in your keys.js file, Assigned to **two variables: myKey** and **myToken**
+-  Launch index.html in your browser.
 
--  Clone the repo to your local machine.
--  Log into Trello (desktop version) and find out [your own private API key and token](https://trello.com/app-key)
--  Create a new **keys.js file** in your new local project directory and save your key and token to **two variables - myKey** and **myToken**
--  
+<img width="800px" alt="keys file screenshot" src="https://github.com/MakeItBack/Trello-Delete-App/blob/main/keys_screenshot.jpg">
 
-![Save API keys](#)
 
-Note: As a safety feature, starred boards cannot be deleted. If you want to delete starred boards you either need to unstar them in Trello first or disable this feature altogether.
+**Note: As a safety feature, starred boards cannot be deleted.**<br>
+If you want to delete starred boards you either need to unstar them in Trello first. Alternatively, edit the code to disable this feature.
 
 This app is built with JavaScript and uses the [axios library](https://github.com/axios/axios) to query the [Trello API](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/).
 
