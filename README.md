@@ -15,12 +15,10 @@ To get this working for yourself:
 
 This app is built with JavaScript and uses the [axios library](https://github.com/axios/axios) to query the [Trello API](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/).
 
-![screenshot](#)
+![App screenshot](https://github.com/MakeItBack/Trello-Delete-App/blob/main/app_screenshot.jpg)
 
 ---
 
 ### License
 
 This project is licensed under the terms of the BSD 3-clause "New" or "Revised" license.<br>
-
-https://github.com/MakeItBack/Chillishack/blob/master/chillishack.gif
