@@ -7,6 +7,9 @@ const cancel = document.querySelector("#no");
 cancel.addEventListener("click", function () {
    confirmBox.classList.add("hide");
 });
+const confirmDelBtn = document.querySelector("#yes");
+confirmDelBtn.addEventListener("click", yesDelete);
+const headerText = document.querySelector("#headerText");
 
 async function getBoards() {
    const res = await axios.get(
@@ -53,18 +56,30 @@ function popup() {
    confirmMsg.textContent = `Are you sure you want to delete these ${num} Trello boards?`;
    confirmBox.classList.remove("hide");
 }
-cancel.addEventListener("click", function () {
+
+async function yesDelete() {
+   // select all the li elements that are selected and save them to an array (use spread syntax on nodelist) and map to just pull outthe IDs
+   const delIDArr = [...document.querySelectorAll("li.selected")].map(
+      (li) => li.id
+   );
+   //  hide popup again and temporarily update text in header
    confirmBox.classList.add("hide");
-});
-
-// TO DO
-// when the delete button is clicked create an array with the IDs of the selected boards
-
-// Add an safety message = eg are you sure you want to delete <num> boards?
-
-// loop through the checked items and delete them
-
-// add the IDs to an array first and then loop over the array?
-
-// To delete a board
-// `https://api.trello.com/1/boards/${boardId}?key=${myKey}&token=${myToken}`
+   headerText.textContent = "Deleting! Page will reload when complete";
+   headerText.style.color = "green";
+   //  Console message
+   console.log(`DELETING THESE ${num} boards:`, delIDArr);
+   //  Loop through array and delete one by one
+   for (const boardID of delIDArr) {
+      try {
+         console.log("Deleting: ", boardID);
+         const res = await axios.delete(
+            `https://api.trello.com/1/boards/${boardID}?key=${myKey}&token=${myToken}`
+         );
+         console.log("SUCCESS! Status code: ", res.status);
+      } catch (err) {
+         console.log(err);
+      }
+   }
+   // Reload page when complete
+   location.reload();
+}
