@@ -13,7 +13,7 @@
 
 
 **Note: As a safety feature, starred boards cannot be deleted.**<br>
-If you want to delete starred boards you either need to unstar them in Trello first. Alternatively, edit the code to disable this feature.
+If you want to delete starred boards you need to unstar them in Trello first. Alternatively, edit the code to disable this feature.
 
 This app is built with JavaScript and uses the [axios library](https://github.com/axios/axios) to query the [Trello API](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/).
 
