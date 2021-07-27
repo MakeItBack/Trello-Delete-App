@@ -2,6 +2,10 @@
 
 **A web app that allows you to quickly and easily delete multiple Trello boards in one step.**<br>
 
+Notes:
+- As a safety feature, starred boards cannot be deleted (unstar in Trello first)
+
+
 To get this working for yourself:
 
 -  Clone the repo to your local machine.
