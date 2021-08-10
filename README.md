@@ -1,4 +1,4 @@
-# Trello Delete Utility
+# Trello Cleanup
 
 **A web app that allows you to quickly and easily delete multiple Trello boards in one step.**<br>
 
