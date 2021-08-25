@@ -1,4 +1,5 @@
 # Trello Cleanup
+<img width="100" align="right" src="img/Trello_trash.png">
 
 **A web app that allows you to quickly and easily delete multiple Trello boards in one step.**<br>
 
