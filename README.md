@@ -24,4 +24,6 @@ This app is built with JavaScript and uses the [axios library](https://github.co
 
 ### License
 
-This project is licensed under the terms of the BSD 3-clause "New" or "Revised" license.<br>
+This project is licensed under the terms of the BSD 3-clause "New" or "Revised" license.
+<img align="right" src="https://img.shields.io/github/license/MakeItBack/Trello-Delete-App">
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
