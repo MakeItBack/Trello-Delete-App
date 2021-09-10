@@ -17,9 +17,15 @@ When I wanted to do a bulk cleanup of old unwanted Trello boards there was no ea
 **This web app that allows you to quickly and easily delete multiple Trello boards in one step.**<br>
 
 ## Technologies
+[
+<img align="left" height="32" width="32" alt="HTML5" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/html5.svg" />
+<img align="left" height="32" width="32" alt="CSS3" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/css3.svg" />
+<img align="left" height="32" width="32" alt="JavaScript" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg" />
+<img align="left" height="32" width="32" alt="Sass" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/sass.svg" />
+](https://github.com/MakeItBack/Learning-Tracker)<br>
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/javascript"><img src="https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg"></a>
 
+This project was built using [Axios](https://github.com/axios/axios) to query the [Trello REST API](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/)
 
 
 ## Instructions
