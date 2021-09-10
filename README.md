@@ -1,9 +1,28 @@
-# Trello Cleanup
-<img width="100" align="right" src="img/Trello_trash.png">
+# Trello Cleanup<img width="100" align="right" src="img/Trello_trash.png">
 
-**A web app that allows you to quickly and easily delete multiple Trello boards in one step.**<br>
+<details>
+<summary>Table of content</summary>
+  
+## Table of Content
+- [Summary](#summary)
+- [Technologies](#technologies)
+- [Instructions](#instructions)
+- [Status](#status)
+- [License](#license)  
 
-#### Instructions
+</details>
+
+## Summary
+When I wanted to do a bulk cleanup of old unwanted Trello boards there was no easy way to do this in the native Trello Apps. To delete multiple boards, each one needed to be closed individually and in two separate operations (close, delete). This was slow and tedious.<br>
+**This web app that allows you to quickly and easily delete multiple Trello boards in one step.**<br>
+
+## Technologies
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/javascript"><img src="https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg"></a>
+
+
+
+## Instructions
 
 -  Clone this repo to your local machine.
 -  Log into Trello (web) and find out [your own private API key and token](https://trello.com/app-key)
@@ -22,8 +41,12 @@ This app is built with JavaScript and uses the [axios library](https://github.co
 
 ---
 
-### License
+## Status
+<a href="https://GitHub.com/MakeItBack/Trello-Delete-App/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+<a href="https://GitHub.com/MakeItBack/Trello-Delete-App/commit"><img src="https://img.shields.io/github/last-commit/MakeItBack/Trello-Delete-App"></a>
 
+## License
+
+
+<a href="https://opensource.org/licenses"><img src="https://img.shields.io/github/license/MakeItBack/Trello-Delete-App?color=dodgerblue"></a><br>
 This project is licensed under the terms of the BSD 3-clause "New" or "Revised" license.
-<img align="right" src="https://img.shields.io/github/license/MakeItBack/Trello-Delete-App">
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
