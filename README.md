@@ -25,7 +25,7 @@ When I wanted to do a bulk cleanup of old unwanted Trello boards there was no ea
 ](https://github.com/MakeItBack/Learning-Tracker)<br>
 
 
-This project was built using [Axios](https://github.com/axios/axios) to query the [Trello REST API](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/)
+This project is built with JavaScript and uses [Axios](https://github.com/axios/axios) to query the [Trello REST API](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/)
 
 
 ## Instructions
@@ -41,7 +41,6 @@ This project was built using [Axios](https://github.com/axios/axios) to query th
 **Note: As a safety feature, starred boards cannot be deleted.**<br>
 If you want to delete starred boards you need to unstar them in Trello first. Alternatively, edit the code to disable this feature.
 
-This app is built with JavaScript and uses the [axios library](https://github.com/axios/axios) to query the [Trello API](https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/).
 
 ![App screenshot](img/app_screenshot.jpg)
 
