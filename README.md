@@ -14,7 +14,7 @@
 
 ## Summary
 When I wanted to do a bulk cleanup of old unwanted Trello boards there was no easy way to do this in the native Trello Apps. To delete multiple boards, each one needed to be closed individually and in two separate operations (close, delete). This was slow and tedious.<br>
-**This web app that allows you to quickly and easily delete multiple Trello boards in one step.**<br>
+**This web app allows you to quickly and easily delete multiple Trello boards in one step.**<br>
 
 ## Technologies
 [
