@@ -59,6 +59,7 @@ main #delete {
 main #delete:hover {
   background-color: #b93333;
   color: white;
+  cursor: pointer;
 }
 
 main #boardList {
@@ -69,6 +70,10 @@ main #boardList li {
   line-height: 2rem;
   font-weight: 600;
   list-style: none;
+}
+
+main #boardList li.noStar {
+  cursor: pointer;
 }
 
 main #boardList li input {
